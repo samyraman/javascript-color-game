@@ -30,7 +30,7 @@ for(var i = 0; i < squares.length; i++) {
 			nextLevel();
 		}
 		else {
-			alert("Uh oh... Game over");
+			alert("Uh oh... you lose :(");
 			currLevel = 0;
 			reset();
 		}
